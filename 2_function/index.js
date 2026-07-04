@@ -1,10 +1,19 @@
-function harry(name){
-    console.log("Hey "+name+" you are amazing")
+function name(namee){
+    console.log(namee)
+}
 
+name("hari")
+
+//returning value from function 
+function ret(m){
+    return m;
 }
-harry("mahi")
-function pro(a,b,c=4){
-    return (a*b+c)
+let res= ret(5);
+console.log(res);
+
+// arrow function
+let th = (ned)=>{
+    console.log(ned)
 }
-result=pro(7,4)
-console.log("thee product is "+result)
+
+th(4)

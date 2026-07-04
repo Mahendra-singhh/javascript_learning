@@ -38,10 +38,22 @@ for (let price of prices) {
     
 }
 
-//push
-prices.push(234);
-console.log(prices);
-console.log(prices.pop());
-console.log(prices)
-console.log(prices.shift())
-console.log(prices)
+// //push
+// prices.push(234);
+// console.log(prices);
+// console.log(prices.pop());
+// console.log(prices)
+// console.log(prices.shift())
+// console.log(prices)
+
+let arr =["microsoft","google","uber","Bloomberg","IBM","Netflix"]
+for (const el of arr) {
+    console.log(el)
+    
+}
+arr.splice(2,1,"Ola")
+for (const el of arr) {
+    console.log(el)
+    
+}
+
